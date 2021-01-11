@@ -5,11 +5,12 @@ import TodoList from './components/TodoList'
 function App() {
   const [items, setItems] = useState([])
   const [ticked, setTicked] = useState(false)
-  
+
   useEffect(() => {
     setItems(items.map(item => {
       return { ...item, done: ticked };
     }));
+    //eslint-disable-next-line
   }, [ticked])
 
   const handleDelete = (id) => {
