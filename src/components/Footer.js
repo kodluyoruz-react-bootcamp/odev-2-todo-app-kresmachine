@@ -10,13 +10,13 @@ function Footer({activeTodosCount}) {
         </span>
     
         <ul className="filters">
-          <li>
-            <a className="selected">All</a>
+          <li>{/*eslint-disable-next-line */}
+            <a  className="selected">All</a>
           </li>
-          <li>
+          <li>{/*eslint-disable-next-line */}
             <a>Active</a>
           </li>
-          <li>
+          <li>{/*eslint-disable-next-line */}
             <a>Completed</a>
           </li>
         </ul>
